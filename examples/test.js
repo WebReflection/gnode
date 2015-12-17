@@ -1,5 +1,5 @@
 
-const GNode = require('gnode');
+const GNode = require('../lib/gnode');
 GNode.startLoop();
 
 const GLib = GNode.importNS("GLib");
